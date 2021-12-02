@@ -48,7 +48,7 @@ const appRoutes: Routes = [
       providers: [
         {
           id: GoogleLoginProvider.PROVIDER_ID,
-          provider: new GoogleLoginProvider('263975214940-9etiqajk1ulfh2ol6giqif8ckrapldd3.apps.googleusercontent.com')
+          provider: new GoogleLoginProvider('Place Google Client ID here')
         }
       ]
     } as SocialAuthServiceConfig,
